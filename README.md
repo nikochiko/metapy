@@ -1,6 +1,6 @@
 # MetaPy
 
-A toy metacircular evaluator for Python, without using ASTs.
+A toy metacircular evaluator for Python, without using an AST library.
 
 Supported:
 - Only int data type
