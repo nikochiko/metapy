@@ -12,6 +12,7 @@ Supported:
 Notes:
 - This assumes the syntax to be correct. Validating syntax must be done before passing to the evaluator.
 - There are no return statements. The value of the last evaluated expression will be taken to be the return value of a function.
+- Syntax support is limited. Semi-colons are not allowed. `def` or `if` with bodies on the same line after colon are not supported. Variable names must be made of letters or underscores.
 
 There are no constructs for loops. Iteration must be representing using recursion instead.
 
